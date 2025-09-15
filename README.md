@@ -1,4 +1,4 @@
-# FAFO: Toxicity GNN + Community Health Analysis
+# EchoLens: Toxicity GNN + Community Health Analysis
 
 This workspace contains a Jupyter-driven pipeline to:
 - Download or load a YouTube comments dataset with toxicity scores/labels
