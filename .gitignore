@@ -1,0 +1,67 @@
+# Global ignores for this project
+
+# 1) Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2) Virtual environments & Conda envs
+.env
+.venv/
+venv/
+env/
+ENV/
+.conda/
+*.conda
+*.env
+
+# 3) Jupyter & VS Code
+.ipynb_checkpoints/
+.vscode/
+
+# 4) Logs & OS cruft
+*.log
+*.DS_Store
+
+# 5) Build/Dist artifacts
+build/
+dist/
+*.egg-info/
+
+# 6) Hugging Face / datasets caches
+~/.cache/huggingface/
+~/.convokit/
+**/datasets-cache/
+
+# 7) Project generated data & outputs
+toxicity_progress.pkl
+youtube_comments_with_toxicity_*.csv
+predictions_*.csv
+toxicity_dataset_summary.json
+comment_embeddings.npy
+
+# 8) Model artifacts
+artifacts/
+model_best.pt
+inference.pyc
+
+# 9) Notebooks temp & outputs
+Notebooks/*.csv
+Notebooks/*.parquet
+Notebooks/*.json
+
+# 10) Local configs & secrets
+.python-version
+.idea/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+*/.env
+
+# 11) Node/npm (if any UI parts added later)
+node_modules/
+package-lock.json
+
+# Keep project docs but ignore large local context
+context.md
